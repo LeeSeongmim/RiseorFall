@@ -1,0 +1,344 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 115%;
+    width: 100%;
+   
+  }
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 115%;
+    padding-bottom: 120%;
+    overflow: hidden;
+  }
+
+  .image-wrapper .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+  }
+ 
+  .image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+  }
+  img {
+    position: absolute;
+  }
+
+  .bling {
+    width: 105%;
+    height: 23%;
+    left: -3%;
+  }
+  .die_or_fall {
+    width: 55%;
+    height: 40%;
+    left: 5%;
+    top: -7%;
+  }
+
+
+  .butterfly {
+    width: 44%;
+    height: 13%;
+    left: 20%;
+  }
+  .star {
+    width: 16%;
+    height: 16%;
+    right: 21%;
+    top: 5%;
+  }
+
+  .person {
+    width: 10%;
+    height: 9.5%;
+    right: 4.4%;
+    top: 20.5%;
+  }
+  .superhot {
+    width: 9%;
+    height: 2.5%;
+    right: 15%;
+    top: 22%;
+  }
+  .superhot:hover{
+    width: 13%;
+    height: 6.5%;
+    right: 13%;
+    top:20%;
+  }
+  .boom {
+    width: 30%;
+    height: 23%;
+    right: 2%;
+    top: 26%;
+  }
+  .boom:hover {
+    width: 32%;
+    height: 24%;
+    right: 1%;
+    top: 25%;
+  }
+
+  .spaceship {
+    width: 11%;
+    height: 10%;
+    right: 23%;
+    top: 35%;
+  }
+  .postpre {
+    width: 12%;
+    height: 3.5%;
+    right: 3%;
+    top: 31%;
+  }
+
+  /*bird부터~*/
+
+
+
+  .social {
+    width: 12%;
+    height: 6%;
+    top: 53%;
+    right: 23%;
+  }
+  .social:hover {
+    width: 13%;
+    height: 7%;
+    top: 52%;
+    right: 22%;
+    transform: rotate(720deg);
+  }
+  .realangel {
+    width: 11%;
+    height: 8%;
+    top: 49%;
+    right: 30%;
+  }
+
+  .purple_stars {
+    width: 20%;
+    height: 27%;
+    top: 58%;
+    right: 27%;
+  }
+
+
+  .sale3010 {
+    width: 15%;
+    height: 5%;
+    top: 68.5%;
+    right: 20%;
+  }
+  .free {
+    width: 6%;
+    height: 6%;
+    top: 71%;
+    right: 18%;
+  }
+  .rotto {
+    width: 11%;
+    height: 7%;
+    top: 69%;
+    right: 5%;
+  }
+  .bird {
+    width: 48%;
+    height: 18%;
+    left: 22%;
+    top: 19%;
+  }
+  .two_rocket {
+    width: 42%;
+    height: 26%;
+    left: 25%;
+    top: 15%;
+  }
+  .sleep {
+    width: 15%;
+    height: 15%;
+    left: 33%;
+    top: 35%;
+  }
+  .sleep:hover {
+    width: 18%;
+    height: 18%;
+    top: 33%;
+    left: 31%;
+  }
+
+  .rocket {
+    width: 23%;
+    height: 20%;
+    left: 12%;
+    top: 32%;
+  }
+  .rocket2 {
+    width: 23%;
+    height: 19%;
+    left: -3%;
+    top: 23%;
+  }
+  .rocket2:hover {
+    transform: translateY(-75px);
+    width: 25%;
+    height: 22%;
+    left: -6%;
+  }
+
+  .num_565855 {
+    width: 13%;
+    height: 4%;
+    left: 44%;
+    top: 73.5%;
+  }
+
+  .treasure {
+    width: 17%;
+    height: 13%;
+    top: 51%;
+    left: 4%;
+  }
+
+  .who_really {
+    width: 18%;
+    height: 9%;
+    top: 69%;
+    left: 7%;
+    cursor: pointer;
+  }
+  .who_really:hover {
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.85);
+    }
+    70% {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 50px rgba(#5a99d4, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+    }
+  }
+
+  .map {
+    width: 27%;
+    height: 27%;
+    top: 45%;
+    left: 26%;
+  }
+  .map:hover {
+    width: 30%;
+    height: 30%;
+    top: 43%;
+    left: 24%;
+  }
+  /* top은 끝났슈 */
+  .cool_link {
+    width: 15%;
+    height: 12%;
+    right: 3%;
+    bottom: 14.5%;
+  }
+  .superpower {
+    width: 14%;
+    height: 6%;
+    right: 4%;
+    bottom: 11%;
+  }
+  .num_4664 {
+    width: 12%;
+    height: 3%;
+    right: 5%;
+    bottom: 7%;
+  }
+
+  .notebook {
+    width: 9%;
+    height: 5%;
+    left: 38%;
+    bottom: 3%;
+  }
+  .epszzd {
+    width: 10%;
+    height: 3%;
+    right: 6%;
+    bottom: 1%;
+  }
+  .skipnext {
+    width: 18%;
+    height: 6%;
+    left: 19.5%;
+    bottom: 5%;
+  }
+  .skipnext:hover {
+    width: 20%;
+    height: 7%;
+    left: 17%;
+    bottom: 4%;
+  }
+
+  .speaker {
+    width: 10%;
+    height: 10%;
+    left: 10%;
+    bottom: 16%;
+  }
+  .infinite_cycle {
+    width: 72%;
+    height: 20%;
+    left: 13%;
+    bottom: 8%;
+  }
+  .infinite_cycle:hover {
+    width: 74%;
+    height: 21%;
+    left: 11%;
+    bottom: 9%;
+  }
+  .light_stars {
+    width: 21%;
+    height: 17%;
+    right: 15%;
+    bottom: 9.5%;
+  }
+  .firework {
+    width: 18%;
+    height: 13%;
+    left: 20%;
+    bottom: 13%;
+  }
+
+  .giraff_bling {
+    width: 30%;
+    height: 45%;
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .pyramid {
+    width: 11%;
+    height: 9%;
+    right: 3%;
+    top: 45%;
+  }
+  .pyramid:hover {
+    width: 13%;
+    height: 11%;
+    right: 1%;
+    top: 44%;
+  }
